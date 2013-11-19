@@ -1,0 +1,18 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slate {
+  background: #F8F8F8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 1px 1px 3px 1px rgba(186,186,186,.4);
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(186,186,186,.4);
+  box-shadow: 1px 1px 3px 1px rgba(186,186,186,.4);
+  padding: 10px 20px;
+  border: 2px solid #FFF;
+  margin-bottom: 20px;
+}
