@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('stepPublicApp')
-  .controller('MainCtrl', function ($scope, $timeout,$filter,$http, $routeParams, DB) {
+  .controller('MainCtrl', function ($scope,$http, $routeParams,DB) {
 
 
             $scope.showMonth = false;

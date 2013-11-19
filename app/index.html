@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="styles/main.css"/>
         <!-- endbuild -->
 </head>
-  <body ng-app="stepPublicApp">
+  <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -43,12 +43,9 @@
     </script>
 
 
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="vendor/jquery/jquery.js"></script>
-        <script src="vendor/angular/angular.js"></script>
-        <!-- endbuild -->
-
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/angular/angular.min.js"></script>
+        
         <!-- build:js scripts/modules.js -->
         <script src="vendor/angular-resource/angular-resource.js"></script>
         <script src="vendor/angular-cookies/angular-cookies.js"></script>
@@ -60,9 +57,11 @@
         <script src="libs/highcharts/3.0.5/js/highcharts.js"></script>
         <script src="libs/highcharts/3.0.5/js/highcharts-more.js"></script>
         <!-- endbuild -->
-
+        
+        
         <!-- build:js scripts/application.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/provider/db.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <!-- endbuild -->
 </body>
